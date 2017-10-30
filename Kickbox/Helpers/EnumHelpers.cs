@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 
 namespace Kickbox.Helpers
 {
-    internal static class EnumHelpers
+    public static class EnumHelpers
     {
         public static string ToEnumString<T>(this T enumInstance)
         {

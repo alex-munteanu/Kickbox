@@ -2,7 +2,7 @@
 
 namespace Kickbox.Models
 {
-    internal enum Result
+    public enum Result
     {
         [EnumMember(Value = "deliverable")]
         Deliverable,
