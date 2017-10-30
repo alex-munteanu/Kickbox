@@ -9,6 +9,7 @@
     <PackageLicenseUrl>https://github.com/aaxelm/Kickbox/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/aaxelm/Kickbox</PackageProjectUrl>
     <RepositoryUrl>https://github.com/aaxelm/Kickbox</RepositoryUrl>
+    <PackageId>Kickbox.Net</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
