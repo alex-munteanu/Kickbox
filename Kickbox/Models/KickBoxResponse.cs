@@ -5,7 +5,7 @@ namespace Kickbox.Models
     public class KickBoxResponse
     {
         [JsonProperty("result")]
-        public string Result { get; set; }
+        public Result Result { get; set; }
 
         [JsonProperty("reason")]
         public string Reason { get; set; }

@@ -23,7 +23,7 @@ namespace Kickbox
         {
             var responseObject = await this.VerifyWithResponse(emailAddress, timeout);
 
-            return responseObject.Result == Result.Deliverable.ToEnumString();
+            return responseObject.Result == Result.Deliverable;
         }
 
         public async Task<ExtendedKickBoxResponse> VerifyWithResponse(string emailAddress, int? timeout = null)
