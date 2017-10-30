@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Alexandru Munteanu</Authors>
+    <Description>A Kickbox.io API for .NET.</Description>
+    <Copyright>Alexandru Munteanu</Copyright>
+    <PackageLicenseUrl>https://github.com/aaxelm/Kickbox/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/aaxelm/Kickbox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aaxelm/Kickbox</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>
