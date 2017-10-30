@@ -1,7 +1,24 @@
 # kickbox
-A <a href="http://docs.kickbox.io/docs/using-the-api">Kickbox.io</a> API for .NET. This library is made using .NET Standard 
+A <a href="http://docs.kickbox.io/docs/using-the-api">Kickbox.io</a> API for .NET. This library is made using .NET Standard 1.1. It can be found on nuget <a href="https://www.nuget.org/packages/Kickbox.Net/">here</a> with the ID Kickbox.Net.
 
 # How to use
+
+Install package from nuget using Package Manager:
+```
+Install-Package Kickbox.Net
+```
+
+or .NET CLI:
+
+```
+dotnet add package Kickbox.Net
+```
+
+or Paket CLI:
+
+```
+paket add Kickbox.Net
+```
 
 Simple validation:
 
